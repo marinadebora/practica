@@ -1,0 +1,12 @@
+#containerMovie{
+  display: inline-block;
+}
+.movie{
+    width: 15%;
+    height: 15%;
+    display: flex;
+    display: inline-block;
+}
+.imgMovie{
+    width: 100%;
+}

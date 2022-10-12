@@ -1,0 +1,23 @@
+.contenedor{
+    margin: 0;
+    padding: 0;
+}
+#containerHome{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.img{
+ 
+   display: block;
+   padding: 2rem;
+}
+#Navbar2{
+    background-color: rgb(31, 31, 31);
+}
+#Navbar2 h3{
+    color:white;
+    text-align:center;
+    margin: 0;
+   
+}
