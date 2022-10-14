@@ -3,21 +3,18 @@
     padding: 0;
 }
 #containerHome{
+   
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    display: inline-block;
 }
-.img{
- 
-   display: block;
+.imgContainer{
+   
+   display: inline-block;
    padding: 2rem;
 }
-#Navbar2{
-    background-color: rgb(31, 31, 31);
+.img{
+    width: 80%;
+    border-radius: 3rem;
 }
-#Navbar2 h3{
-    color:white;
-    text-align:center;
-    margin: 0;
-   
-}
+

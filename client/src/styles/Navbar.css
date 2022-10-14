@@ -1,12 +1,22 @@
 
 #navbar{
     background-color: rgb(5, 5, 191);
-    height: 4rem;
+    height: 80%;
+    width: 100%;
     margin: 0;
     padding: 0;
+    display: inline-block;
 }
 #navbar h1{
     margin: 0;
     text-align: center;
     color:white;
+    display: inline-block;
+}
+#navbarP{
+    text-align:end;
+    padding-left: 25rem;
+    display: inline-block;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

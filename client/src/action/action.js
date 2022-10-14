@@ -1,6 +1,4 @@
-import axios from 'axios'
 import data from '../data/sample.json'
-console.log(data.entries)
 
 export function getCharacter(){
 return  function(dispatch){
@@ -11,7 +9,8 @@ try {
         payload:character
     })
 } catch (error) {
-    console.log(error)
+    document.write(`<p>Ooops something went wrong</p>`)
+
 }
 }
 }
@@ -22,7 +21,6 @@ export function getSeries(payload){
     }
 }
 export function getMovies(payload){
-    console.log(payload)
     return {
         type:'GET_MOVIES',
         payload
